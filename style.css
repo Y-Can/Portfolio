@@ -42,8 +42,9 @@ html {
 header {
     text-align: center;
     height: 100vh;
-    background: url(img/media/header.jpg) no-repeat fixed;
+    background: url(img/media/head.jpg) no-repeat fixed;
   }
+  header
   h1 {
     padding: 90px 0 10px 0;
     font-family: 'Josefin Sans', sans-serif;
@@ -84,7 +85,8 @@ header {
     right: 0;
     margin: auto;
     height: auto;
-    
+    width: 180px;
+    height: 230px;
     border-radius: 3px;
     box-shadow: 0 0 4px #111;
   }
@@ -551,3 +553,4 @@ footer {
       font-size: 0.7em;
     }
   }
+

@@ -1,7 +1,7 @@
 
 // TYPED
 var typed = new Typed('.typed', {
-    strings: ["Bonjour à tous et à toutes, je me présente je m'appelle Can", "Après avoir décidé de changer de métier, J'ai décidé de me lancer à fond dans l'apprentissage du code, je me forme à temps plein en autodidacte aux langages tels que CSS, Javascript, PHP quelques frameworks etc... afin devenir le plus rapidement possible développeur. Plus qu'un avenir professionnel, je me suis découvert une passion, celle de coder."],
+    strings: ["Bonjour à tous et à toutes, je me présente je m'appelle Can", "Après avoir décidé de changer de métier, J'ai décidé de me lancer à fond dans l'apprentissage du code, je me forme à temps plein en autodidacte aux  afin devenir le plus rapidement possible développeur. Plus qu'un avenir professionnel, je me suis découvert une passion, celle de coder."],
     typeSpeed: 20,
     smartBackspace: true,
     loop: false
