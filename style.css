@@ -42,7 +42,7 @@ html {
 header {
     text-align: center;
     height: 100vh;
-    background: url(img/media/head.jpg) no-repeat fixed;
+    background: url(img/header.jpg) no-repeat fixed;
   }
   header
   h1 {
@@ -342,7 +342,7 @@ header {
   }
   /* ********************** FOOTER ************************ */
 footer {
-    background: url(./media/footer.jpg) 50% 0% no-repeat fixed;
+    background: url(./img/footer.jpg) 50% 0% no-repeat fixed;
     background-size: cover;
     text-align: center;
     padding: 160px 50px 5 50px;

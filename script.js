@@ -1,7 +1,15 @@
 
+
+// document.addEventListener('DOMContentLoaded', fetchVercelProjects);
+
+
+
+
+async function jsPage() {
+
 // TYPED
 var typed = new Typed('.typed', {
-    strings: ["Bonjour à tous et à toutes, je me présente je m'appelle Can", "Après avoir décidé de changer de métier, J'ai décidé de me lancer à fond dans l'apprentissage du code, je me forme à temps plein en autodidacte aux  afin devenir le plus rapidement possible développeur. Plus qu'un avenir professionnel, je me suis découvert une passion, celle de coder."],
+    strings: ["Après avoir consolidé mes compétences en développement web au cours de ces dernières années, je suis à la recherche d'un nouveau défi professionnel en tant que développeur. Ma passion pour la création de solutions innovantes et mon désir constant de progression me poussent à explorer de nouvelles opportunités dans le domaine du développement logiciel. Je suis prêt à m'engager pleinement dans des projets stimulants où je pourrai mettre à profit mon expertise technique et contribuer au succès de l'équipe."],
     typeSpeed: 20,
     smartBackspace: true,
     loop: false
@@ -53,3 +61,14 @@ $(window).scroll(function() {
     compteur = 1;
   }
 });
+}
+jsPage()
+
+
+var dateNaissance = new Date('1998-10-04')
+var dateActuelle = new Date();
+var age = dateActuelle.getFullYear() - dateNaissance.getFullYear();
+if (dateActuelle.getMonth() < dateNaissance.getMonth() || (dateActuelle.getMonth() === dateNaissance.getMonth() && dateActuelle.getDate() < dateNaissance.getDate())) {
+    age--;
+}
+document.getElementById("age").innerText =  age+" ans";
