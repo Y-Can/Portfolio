@@ -110,6 +110,7 @@
 
 
 
+function jsPage() {
 
 // TYPED
 var typed = new Typed('.typed', {
@@ -165,6 +166,8 @@ $(window).scroll(function() {
     compteur = 1;
   }
 });
+}
+jsPage()
 
 
 var dateNaissance = new Date('1998-10-04')
